@@ -6,4 +6,4 @@ def pow(a, b):
     a (int | float): The base number
     b (int | float): The exponent
     '''
-    return a ** b 
+    return (a ** b)
