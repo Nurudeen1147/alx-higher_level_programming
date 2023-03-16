@@ -17,4 +17,4 @@ def best_score(a_dictionary):
             best_score = a_dictionary[key]
             res = key
         i += 1
-    return res 
+    return res

@@ -26,4 +26,4 @@ def roman_to_int(roman_string):
         else:
             res += sym_tbl[sym]
         prev_symbol = sym
-    return res 
+    return res
