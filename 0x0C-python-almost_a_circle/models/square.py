@@ -73,4 +73,4 @@ class Square(Rectangle):
             'x': self.x,
             'y': self.y
         }
-        return 
+        return res
