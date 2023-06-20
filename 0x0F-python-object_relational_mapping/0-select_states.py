@@ -23,6 +23,5 @@ def list_all():
         for row in result:
             print(row)
 
-
 if __name__ == '__main__':
         list_all()
