@@ -13,8 +13,7 @@ def list_all():
     host = 'localhost'
     port = 3306
 
-    db = MySQLdb.connect(host=host, user=username, passwd=password,
-                         db=db_name, port=port)
+    db = MySQLdb.connect(host=host, user=username, passwd=password, db=db_name, port=port)
     cur = db.cursor()
     cur.execute('SELECT * FROM states ORDER BY id ASC;')
     result = cur.fetchall()
