@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-'''script that deletes all State objs with name containing letter 'a' from the db'''
+''' script that deletes all State objs with name
+    containing letter 'a' from the db'''
 
 from model_state import State, Base
 from sqlalchemy import create_engine
