@@ -9,8 +9,9 @@ import sys
 
 
 def list_with_name():
-    ''' a script that takes in an argument and displays all values in the states        table of hbtn_0e_0_usa where name matches the argument
-        matches the argument passed to the script
+    ''' a script that takes in an argument and displays all values
+        in the state table of hbtn_0e_0_usa where name matches the
+        argumentmatches the argument passed to the script
     '''
     username = sys.argv[1]
     password = sys.argv[2]
