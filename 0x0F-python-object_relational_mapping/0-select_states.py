@@ -12,6 +12,7 @@ def list_all():
     db_name = sys.argv[3]
     host = 'localhost'
     port = 3306
+
     db = MySQLdb.connect(host=host, user=username, passwd=password,
                          db=db_name, port=port)
     cur = db.cursor()
