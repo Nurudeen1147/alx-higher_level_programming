@@ -4,6 +4,7 @@
 import MySQLdb
 import sys
 
+
 def secure_fetch():
     ''' a safer way to displays all values in the states table of hbtn_0e_0_usa
         where name matches the argument passed to the script
@@ -28,6 +29,7 @@ def secure_fetch():
     if result:
         for row in result:
             print(row)
+
 
 if __name__ == '__main__':
     secure_fetch()

@@ -4,6 +4,7 @@
 import MySQLdb
 import sys
 
+
 def list_N():
     '''list the states that starts with N'''
     username = sys.argv[1]
@@ -24,6 +25,7 @@ def list_N():
         for row in result:
             if row[1][0] == "N":
                 print(row)
+
 
 if __name__ == "__main__":
     list_N()

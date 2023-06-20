@@ -32,5 +32,6 @@ def list_with_name():
         for row in result:
             print(row)
 
+
 if __name__ == '__main__':
     list_with_name()
