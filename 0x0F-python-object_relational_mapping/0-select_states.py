@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 '''script lists all states from the db'''
 
+
 import MySQLdb
 import sys
+
 
 def list_all():
     '''list all states in db'''
@@ -21,6 +23,7 @@ def list_all():
     if result:
         for row in result:
             print(row)
+
 
 if __name__ == '__main__':
         list_all()
